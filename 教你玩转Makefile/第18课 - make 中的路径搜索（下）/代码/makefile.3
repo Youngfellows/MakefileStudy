@@ -1,0 +1,11 @@
+
+GPATH := src
+VPATH := src
+CFLAGS := -I inc
+
+app.out : func.o main.o
+	@gcc -o $@ $^
+	@echo "Target File ==> $@"
+
+%.o : %.c inc/func.h
+	@gcc $(CFLAGS) -o $@ -c $<

@@ -1,0 +1,13 @@
+VPATH := src1
+CFLAGS := -I inc
+
+vpath %.c src2
+vpath %.h inc
+
+app.out : func.o main.o
+	@gcc -o $@ $^
+	@echo "Target File ==> $@"
+
+%.o : %.c func.h
+	@gcc $(CFLAGS) -o $@ -c $<
+	

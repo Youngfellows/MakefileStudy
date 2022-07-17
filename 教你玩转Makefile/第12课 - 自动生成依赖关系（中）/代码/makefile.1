@@ -1,0 +1,12 @@
+
+.PHONY : all
+
+include test.txt
+
+all : 
+	@echo "this is all"
+	
+test.txt :
+	@echo "test.txt"
+	@touch test.txt
+	

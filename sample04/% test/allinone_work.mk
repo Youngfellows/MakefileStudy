@@ -1,0 +1,1 @@
+-include root/work/mad.d root/work/sink.d root/work/log.d root/work/source.d root/work/main.d root/work/lsy.d root/work/crc.d
