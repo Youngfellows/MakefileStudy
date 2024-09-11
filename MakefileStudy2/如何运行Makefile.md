@@ -21,18 +21,18 @@
 * 查找***指定名称的Makefile文件***中最顶层项目目标，并执行最***顶层目标***的命令运行
 
   ```SHELL
-  make -f Example1.mk
+  make -f Example01.mk
   ```
 
 * 查找***指定名称的Makefile文件***中最顶层项目目标，并运行指定名称的目标的处理命令
 
   ```SHELL
-  make clean -f Example6.mk
-  make file1 -f Example7.mk 
+  make clean -f Example06.mk
+  make file1 -f Example07.mk 
 
-  make -f Example6.mk some_file
-  make -f Example6.mk other_file
-  make -f Example6.mk clean
+  make -f Example06.mk some_file
+  make -f Example06.mk other_file
+  make -f Example06.mk clean
 
   ```
 
