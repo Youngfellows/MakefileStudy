@@ -35,6 +35,11 @@
   make -f Example06.mk other_file
   make -f Example06.mk clean
 
+  # 伪目标实现函数调用
+  make clean -f Example14.mk
+  make all -f Example14.mk
+  make rebuild -f Example14.mk
+
   ```
 
   
