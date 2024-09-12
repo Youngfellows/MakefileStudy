@@ -29,6 +29,7 @@
   ```SHELL
   make clean -f Example06.mk
   make file1 -f Example07.mk 
+  make run -f Example11.mk
 
   make -f Example06.mk some_file
   make -f Example06.mk other_file
